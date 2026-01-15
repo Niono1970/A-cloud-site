@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Cloud Site</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f4f8;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 3rem;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+            max-width: 600px;
+        }
+        h1 {
+            color: #0078d4;
+            margin-bottom: 0.5rem;
+        }
+        p {
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.6;
+        }
+        .status {
+            margin-top: 1.5rem;
+            padding: 0.5rem 1rem;
+            background-color: #e6f7ff;
+            color: #005a9e;
+            border-radius: 20px;
+            display: inline-block;
+            font-size: 0.9rem;
+            font-weight: 600;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Hello World from the Cloud!</h1>
+        <p>
+            Congratulations! If you can see this page, you have successfully
+            deployed a static website using <strong>Azure Static Web Apps</strong>.
+        </p>
+        <div class="status">
+            Status: Live & Deployed 🚀
+        </div>
+    </div>
+</body>
+</html>
